@@ -1,0 +1,15 @@
+{
+  "name": "meeting-reminder-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^11.0.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.9.0"
+  }
+}
